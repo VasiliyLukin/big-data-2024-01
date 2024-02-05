@@ -3,13 +3,4 @@
 https://cwiki.apache.org/confluence/display/HADOOP/Hadoop+Java+Versions
 https://www.apache.org/dyn/closer.cgi/hadoop/common/
 
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-export HADOOP_HOME=/home/hadoop/hadoop
-export HADOOP_INSTALL=$HADOOP_HOME
-export HADOOP_MAPRED_HOME=$HADOOP_HOME
-export HADOOP_COMMON_HOME=$HADOOP_HOME
-export HADOOP_HDFS_HOME=$HADOOP_HOME
-export HADOOP_YARN_HOME=$HADOOP_HOME
-export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
-export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin
-export HADOOP_OPTS=”-Djava.library.path=$HADOOP_HOME/lib/native”
+https://cuddly-blob-cc7.notion.site/Hadoop-Streaming-7a05dbb9afba45c38f12f4e71d09a113
